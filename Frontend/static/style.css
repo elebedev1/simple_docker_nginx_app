@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    text-align: center; /* Выравниваем текст по центру */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff; /* Добавляем контур */
+    border-radius: 25px; /* Увеличиваем радиус скругления */
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Добавляем анимацию для smooth hover */
+    margin-bottom: 10px;
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Делаем кнопки блочными элементами, чтобы можно было задать ширину */
+    width: 200px; /* Ширина кнопок */
+    text-align: center; /* Выравниваем текст по центру */
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; /* Изменяем цвет контура при наведении */
+}
+
+
+/* Стилизация для input[type="file"] */
+input[type="file"] {
+    display: none; /* Скрыть стандартный элемент input */
+}
+
+.custom-file-upload {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px; /* Уменьшаем внутренний отступ */
+    border: none;
+    border-radius: 4px; /* Уменьшаем радиус скругления */
+    font-size: 14px; /* Уменьшаем размер шрифта */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
